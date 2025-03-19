@@ -1,8 +1,8 @@
 <script>
-  document.addEventListener('DOMContentLoaded', () = {
+  document.addEventListener('DOMContentLoaded', ()) = {}
     const navLinks = document.querySelectorAll('nav a');
 
-    navLinks.forEach(link => {
+    navLinks.forEach(link = ){
       link.addEventListener('click', (e) => {
         e.preventDefault();
         const page = link.textContent.toLowerCase();
@@ -27,6 +27,6 @@
             console.log('Page not found');
         }
       })
-    })
-  })
+    }
+  
 </script>
